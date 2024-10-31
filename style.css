@@ -1,7 +1,17 @@
-figure {
-  text-align: center;
-}
-figcaption {
-  font-size: 0.9em;
-  color: gray;
+.slideshowContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.5em;
+  figure {
+    margin: 0;
+    text-align: center;
+    img {
+      width: 50vw;
+      height: 50vw;
+    }
+    figcaption {
+      font-size: 0.9em;
+      color: gray;
+    }
+  }
 }

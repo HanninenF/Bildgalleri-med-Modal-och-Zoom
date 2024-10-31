@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bildgalleri med Modal och Zoom</title>
     <link rel="stylesheet" href="style.css" />
-    <script src="app.js" defer></script>
+    <script type="module" src="app.js" defer></script>
   </head>
   <body>
     <section class="slideshowContainer">
@@ -20,25 +20,31 @@
         >
       </figure>
       <figure>
-        <img
-          src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="sheet music"
-        />
-        <figcaption>sheet music</figcaption>
+        <a class="sheet-music" href="#">
+          <img
+            src="https://images.unsplash.com/photo-1507838153414-b4b713384a76?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="sheet music"
+          />
+          <figcaption>sheet music</figcaption>
+        </a>
       </figure>
       <figure>
-        <img
-          src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="Rehearsal Room"
-        />
-        <figcaption>Rehearsal Room</figcaption>
+        <a class="rehearsal-room" href="#">
+          <img
+            src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Rehearsal Room"
+          />
+          <figcaption>Rehearsal Room</figcaption>
+        </a>
       </figure>
       <figure>
-        <img
-          src="https://images.unsplash.com/photo-1461784121038-f088ca1e7714?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-          alt="Drums"
-        />
-        <figcaption>Drums</figcaption>
+        <a class="drums" href="#">
+          <img
+            src="https://images.unsplash.com/photo-1461784121038-f088ca1e7714?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="Drums"
+          />
+          <figcaption>Drums</figcaption>
+        </a>
       </figure>
     </section>
   </body>
